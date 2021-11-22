@@ -29,6 +29,7 @@ export default NextAuth({
                       q.Casefold(session.user.email)
                     )
                   )
+                  
                 )
               ),
               q.Match(
